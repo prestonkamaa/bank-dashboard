@@ -1,5 +1,5 @@
 import SidebarMenu from "./Components/Sidebar/SidebarMenu"
-import { Homepage } from "./HomePage/page"
+import { Homepage } from "./Pages/HomePage"
 
 export default function index() {
   return (
