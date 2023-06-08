@@ -12,7 +12,7 @@ export default function AllTransactions() {
     <>
 
         <div className=" border border-1 rounded-xl p-4 bg-white mb-6">
-            <div className=" flex justify-between text-gray-500 items-center mb-7">
+            <div className=" flex lg:flex-nowrap flex-wrap justify-between text-gray-500 items-center mb-7">
               <p className=" flex items-center">Overview of <span className=" font-semibold">****4265</span> <BsChevronDown /></p>
             <p className=" flex text-sm text-gray-500 gap-3 ">
                 Day <span className=" font-semibold underline">Week</span> Month Year  
@@ -20,18 +20,18 @@ export default function AllTransactions() {
             </div>
             
 
-            <div className=" flex text-sm gap-12 text-gray-500">
+            <div className=" flex lg:text-sm text-xs lg:gap-12 gap-3 text-gray-500">
                 <div>
                     Balance <br/>
-                    <p className=" text-base font-semibold">Ksh. 50,000.00</p>
+                    <p className=" lg:text-base text-xs font-semibold">Ksh. 50,000.00</p>
                 </div>
                 <div>
                     Income <br/>
-                    <p className=" text-base font-semibold">Ksh. 30,000.00</p>
+                    <p className=" lg:text-base text-xs font-semibold">Ksh. 30,000.00</p>
                 </div>
                 <div>
                     Expenses <br/>
-                    <p className=" text-base font-semibold">Ksh. 24,000.00</p>
+                    <p className=" lg:text-base text-xs font-semibold">Ksh. 24,000.00</p>
                 </div>
             </div>
 

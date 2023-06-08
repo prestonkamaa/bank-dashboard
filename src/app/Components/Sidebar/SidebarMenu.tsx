@@ -1,5 +1,6 @@
 import { IoPeopleCircleOutline } from "react-icons/io5";
 import { BsChevronRight} from "react-icons/bs";
+import { RxHamburgerMenu} from "react-icons/rx";
 
 
 
@@ -10,7 +11,10 @@ export default function SidebarMenu() {
         <p className=" text-center text-white text-3xl mb-5">
             <span className=" font-bold">ABC</span> Bank
         </p>
-        <nav className=" text-white mx-auto space-y-5 cursor-pointer">
+
+        <RxHamburgerMenu className=" text-white lg:hidden " />
+
+        <nav className=" lg:block hidden text-white mx-auto space-y-5 cursor-pointer">
             <p className=" flex items-center bg-slate-300 hover:bg-slate-200 px-5 py-2 rounded-xl"> 
               <IoPeopleCircleOutline className=" w-6 h-6 mr-1" />Dashboard 
             </p> 
@@ -29,7 +33,7 @@ export default function SidebarMenu() {
                        
         </nav> 
 
-        <a href="https://google.com/" target="_blank"><p className=" flex mx-auto w-60 mt-32 items-center bg-slate-300 hover:bg-slate-200 px-5 py-2 text-white rounded-xl">
+        <a href="https://google.com/" target="_blank"><p className=" flex mx-auto w-60 mt-32 items-center bg-slate-300 hover:bg-slate-200 px-5 py-2 text-white rounded-xl lg:block hidden">
           Link to image design <BsChevronRight className=" w-4 h-4 mr-1" />
         </p></a> 
     </div>

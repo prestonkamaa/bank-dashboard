@@ -31,12 +31,12 @@ export const Homepage = () => {
  
         <div>
 
-        <div className=" flex divide-x">
-          <div className="w-1/3 pr-5 ">
+        <div className=" flex lg:flex-nowrap flex-wrap lg:divide-x ">
+          <div className="lg:w-1/3 w-full lg:pr-5 ">
             <TransactionBar />
           </div>
           
-          <div className="w-2/3 pl-5">
+          <div className="lg:w-2/3 w-full lg:pl-5">
             <AllTransactions />
           </div>
         </div>
